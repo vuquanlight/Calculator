@@ -1,0 +1,65 @@
+#root {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body {
+	 background: rgba(72, 118, 255, 70%)
+
+}
+.calculator {
+	width: 300px;
+	margin: auto;
+	border-top-width: 0;
+}
+.formulaScreen {
+	min-height: 20px;
+	justify-content: flex-end;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: right;
+	vertical-align: text-top;
+	line-height: 20px;
+}
+.outputScreen {
+	display: flex;
+	justify-content: flex-end;
+	background-color: rgba(255,255,255,0.25);
+	padding: 20px 10px;
+	border-top-width: 2px;
+	font-weight: bold;
+	font-size: 1.6rem;
+	color: black;
+	margin: 0.5%;
+}
+#panel {
+	display: flex;
+	flex-wrap: wrap;
+}
+	button {
+		width: 24%;
+		border: 0 none;
+		padding: 20px;
+		margin: 0.5%;
+		font-weight: bold;
+		font-size: 1.2rem;
+		color: black;
+		background-color: rgba(255,255,255,0.25);
+  }
+ 
+ button:hover {
+	 color: black;
+	 outline: 0.05rem solid rgb( 0 0 0);
+	 z-index: 3;
+}
+ .ac {
+	 width: 49%;
+}
+ .numberzero{
+   width: 74%;
+ }
+
+
+ 
